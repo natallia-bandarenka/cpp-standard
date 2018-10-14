@@ -7,4 +7,7 @@ set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
 include(cmake/warnings.cmake)
 
+enable_testing()
+add_subdirectory(external/Catch2)
+
 add_subdirectory(src)
