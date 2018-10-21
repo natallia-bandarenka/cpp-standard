@@ -2,6 +2,7 @@ add_executable(cpp-standard
     main.cpp
     algorithms/nonmodifying/all_of.cpp
     algorithms/nonmodifying/any_of.cpp
+    algorithms/nonmodifying/none_of.cpp
 )
 
 max_warnings_level(cpp-standard)
